@@ -47,10 +47,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 
 			// Eliminar contacto
 			deleteContact: (id) => {
-				console.log("Intentando eliminar el contacto con ID:",id);
-				// alerta para confirmacion de eliminacion de un contacto
-				if (window.confirm("¿Estas seguro que quieres eliminar este contacto?"))
-
+				
 				//Eliminacion del contacto en la API
 				fetch(`https://playground.4geeks.com/contact/agendas/Monique/contacts/${id}`, {
 					method: "DELETE",
