@@ -74,6 +74,10 @@
 		]
 	},
 	"dependencies": {
+<<<<<<< HEAD
+=======
+		"@fortawesome/fontawesome-svg-core": "^6.7.2",
+>>>>>>> 2f86ca406167a49dc86c1dd00c65191fa84926c2
 		"@fortawesome/free-solid-svg-icons": "^6.7.2",
 		"@fortawesome/react-fontawesome": "^0.2.2",
 		"prop-types": "^15.7.2",
