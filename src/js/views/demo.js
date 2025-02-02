@@ -4,8 +4,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPen, faTrashCan, faPhone, faLocationDot, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { Context } from "../store/appContext";
 import "../../styles/demo.css";
-import { useNavigate } from "react-router-dom";
-
 
 	export const Demo = () => {
 		const { store, actions } = useContext(Context);
