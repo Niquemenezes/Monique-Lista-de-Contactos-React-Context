@@ -21,11 +21,10 @@ const Layout = () => {
 			<BrowserRouter basename={basename}>
 				<ScrollToTop>
 					<Routes>
-						<Route path="/" element={<Home />} />
+						<Route path="/" element={<Demo />} />
 						<Route path="/demo" element={<Demo />} />
 						<Route path="/edit/:id" element={<Home />} />
-						<Route path="/contacts" element={<Home/>}/>
-						<Route path="/single/:theid" element={<Single />} />
+						<Route path="/add" element={<Home/>}/>
 						<Route path="*" element={<h1>Not found!</h1>} />
 					</Routes>
 				</ScrollToTop>
